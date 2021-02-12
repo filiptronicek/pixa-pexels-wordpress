@@ -21,7 +21,6 @@ Array [
         placeholder="Search for images"
         required={false}
         type="text"
-        value="query"
       />
     </div>
   </div>,
@@ -155,7 +154,6 @@ Array [
         placeholder="Search for images"
         required={false}
         type="text"
-        value="query"
       />
     </div>
   </div>,
