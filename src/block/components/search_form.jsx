@@ -36,7 +36,7 @@ class SearchForm extends React.Component {
             <React.Fragment>
                 <TextField
                     onChange={(e) => this.props.searchController.setQuery(e.currentTarget.value)}
-                    value={ this.state.query }
+                    //value={ this.state.query.length !== 1 ? this.state.query : "" }
                     placeholder="Search for images"
                     className="searchInput"
                     />
