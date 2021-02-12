@@ -26,3 +26,11 @@
 - Provides all the configurations so you can customize the project as you want.
 - It's a one-way street, `eject` and you have to maintain everything yourself.
 - You don't normally have to `eject` a project because by ejecting you lose the connection with `create-guten-block` and from there onwards you have to update and maintain all the dependencies on your own.
+
+## Development
+### Releasing
+1. Change the version in [plugin.php](plugin.php), [package.json](package.json)
+2. Update version in lockfile: `npm i`
+3. Make a tag commit: `git commit -am v1.2.3`
+4. Tag the commit: `git tag v1.2.3`
+5. Push them commits and tags: `git push && git push --tags`
