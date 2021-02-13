@@ -46,7 +46,12 @@ class SearchController  {
 
     setQuery (query) {
         if (query != this.state.query ) {
-            this.setState({query: query})
+			this.setState({query: query})
+			setTimeout(() => {
+				if(query !== this.state.query) {
+					this.setState({query: query})
+				}
+			}, 500)
         }
     }
 
