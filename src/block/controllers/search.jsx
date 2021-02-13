@@ -38,7 +38,10 @@ class SearchController  {
         } else {
             selectedProviderNames.push(provider.name)
         }
-        this.setState({selectedProviderNames: selectedProviderNames})
+		this.setState({selectedProviderNames: selectedProviderNames})
+		const query = this.state.query;
+		this.setState({query: `${query} ` })
+		this.setState({query: query})
     }
 
     setQuery (query) {
