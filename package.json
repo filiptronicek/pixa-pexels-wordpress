@@ -12,7 +12,7 @@
   "dependencies": {
     "@material-ui/core": "^4.11.3",
     "@material-ui/icons": "^4.11.2",
-    "cgb-scripts": "1.23.0",
+    "cgb-scripts": "1.23.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "rxjs": "^6.6.3"
